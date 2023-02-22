@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-
 :root {
   --cor-secundaria: rgb(9, 48, 56);
   --cor-meio: #1B3B84;
@@ -7,137 +5,27 @@
   --bg: HTML/imgDesing sem nome
 }
 
-* {
-  box-sizing: border-box;
-  outline: 0;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-}
-
 
 body {
-
   background: linear-gradient(45deg, #a7cfdf 0%, #23538a 100%);
-  background-size: cover;
-  background-position: center center;
-  font-family: OCR A Std, monospace;
 }
 
 .background-img {
   background-image: url(cronometro.svg);
-  min-height: 100vh;
-  min-width: 100vh;
-  justify-content: center;
+  
 }
-
 
 .container {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  justify-content: center;
-  align-items: center;
   background-color: var(--cor-meio);
-  margin: 0 auto;
-  max-width: 70rem;
-  margin-bottom: 5.3rem;
-  margin-top: auto;
-  border: solid black;
-  border-radius: 20px;
-  box-shadow: 16px 16px 32px rgba(0, 0, 0, 0);
-}
-
-.tempo {
-  text-align: center;
-  font-size: 8.3rem;
-  padding: 2rem;
-}
-
-.espaco-botoes {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  margin-bottom: 2rem;
+ 
 }
 
 .botao {
   background: var(--cor-botao);
-  border-radius: 5%;
-  border: 0.1rem solid;
-  padding: 1.3rem;
-  color: black;
+  
 }
-
-
-.option {
-  color: black;
-}
-
-.titulo {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  font-size: 3rem;
-}
-
-.opcoes .botao {
-  padding: 0;
-  width: 11rem;
-  height: 5.5rem;
-  margin: 1rem;
-}
-
-.retangulo {
-  background: #fff;
-  margin-bottom: 2rem;
-}
-
-.botao:hover {
-  transform: scale(1.09);
-}
-
-.botao:active {
-  background: #fff;
-}
-
-.input-tempo {
-  border: none;
-  background: #fff;
-  height: 100px;
-  width: 130px;
-  text-align: center;
-  font-size: 99px;
-}
-
-.data {
-  font-size: 3rem;
-  text-align: center;
-}
-
-.footer-box {
-  background: black;
-
-  height: auto;
-
-}
-
-.cron {
-  font-size: 1.8rem;
-  text-align: center;
-}
-
 
 .bg-box {
   background: var(--cor-botao);
-  border-radius: 5%;
-  border: 0.1rem solid;
-  padding: 1.3rem;
-  color: black;
 }
 
-.tempos {
-  text-align: center;
-}
