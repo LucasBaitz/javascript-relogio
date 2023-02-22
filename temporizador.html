@@ -11,39 +11,40 @@
   <link rel="stylesheet" href="assets/css/global.css">
 </head>
 
-<body class="bg-temp">
+<body>
   <div class="background-img">
-  <section class="container">
-    <div class="bg-box">
-      <h1 class="titulo">⌛ Temporizador ⌛</h1>
-    </div>
-    <div class="tempo">
-      <div class="retangulo">
-        <input type="number" placeholder="00" class="input-tempo" id="input-tempo-horas">:<input type="number"
-          placeholder="00" class="input-tempo " id="input-tempo-minutos">:<input type="number" placeholder="00"
-          class="input-tempo" id="input-tempo-segundos">
+    <section class="container">
+      <div class="bg-box">
+        <h1 class="titulo">⌛ Temporizador ⌛</h1>
       </div>
-      <audio src="assets/sounds/alarme.mp3" class="som-alarme"></audio>
-    </div>
-    <div class="espaco-botao-temp">
-      <button class="botao" id="iniciar"><img src="assets/imgs/play.png" alt="iniciar"></button>
-      <button class="botao" id="parar"><img src="assets/imgs/pausa.png" alt="parar"></button>
-      <button class="botao" id="reiniciar"><img src="assets/imgs/restart.png" alt="reiniciar"></button>
-    </div>
-  </section>
+      <div class="tempo">
+        <div class="retangulo">
+          <input type="number" placeholder="00" class="input-tempo" id="input-tempo-horas">:<input type="number"
+            placeholder="00" class="input-tempo " id="input-tempo-minutos">:<input type="number" placeholder="00"
+            class="input-tempo" id="input-tempo-segundos">
+        </div>
+        <audio src="assets/sounds/alarme.mp3" class="som-alarme"></audio>
+      </div>
+      <div class="espaco-botao">
+        <button class="botao" id="iniciar"><img src="assets/imgs/play.png" alt="iniciar"></button>
+        <button class="botao" id="parar"><img src="assets/imgs/pausa.png" alt="parar"></button>
+        <button class="botao" id="reiniciar"><img src="assets/imgs/restart.png" alt="reiniciar"></button>
+      </div>
+    </section>
 
 
 
-  <section class="container-temp">
-    <h2 class="titulo">Outras opções</h2>
-    <p class="opcoes">
-      <a class="option" href="data.html"><button class="botao" id="relogio">Relogio &#128337;</button></a>
-      <a class="option" href="cronometro.html"><button class="botao" id="cronometro">Cronometro ⏱️</button></a>
-    </p>
-  </section>
-
+    <section class="container">
+      <h2 class="titulo">Outras opções</h2>
+      <p class="opcoes">
+        <a class="option" href="data.html"><button class="botao" id="relogio">Relogio &#128337;</button></a>
+        <a class="option" href="cronometro.html"><button class="botao" id="cronometro">Cronometro ⏱️</button></a>
+      </p>
+      
+    </section>
+  
   <footer class="footer-box">
-    <p class="temp"><a href="creditos.html">CRÉDITOS</a></p>
+    <p class="cron"><a href="creditos.html">CRÉDITOS</a></p>
   </footer>
 </div>
 

@@ -56,11 +56,12 @@ reiniciar.addEventListener('click', function() {
     segundos = 0;
     minutos = 0;
     milisegundos = 0;
+    limite = 0;
     clearInterval(contagem);
 });
 
 salvarTempo.addEventListener('click', function() {
   let lista = document.createElement('li');
   lista.innerHTML = tempo.innerHTML
-  temposLista.appendChild(lista)
+  temposLista.appendChild(lista) 
 });

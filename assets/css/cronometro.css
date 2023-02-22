@@ -29,3 +29,13 @@ body {
   background: var(--cor-botao);
 }
 
+h3 {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.tempos {
+  font-size: 2.2rem;
+  text-align: center;
+}
+

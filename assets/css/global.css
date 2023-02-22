@@ -2,48 +2,45 @@
 
 * {
     box-sizing: border-box;
-    outline: 0;
+    /* outline: 0; */
     margin: 0;
     padding: 0;
+    outline: 1px solid red !important; 
+
 }
+
 
 body {
     background-size: cover;
     background-position: center center;
     font-family: OCR A Std, monospace;
-  }
+}
 
 .container {
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-content: center;
-    align-items: center; 
-    margin: 0 auto ;
-    max-width: 70rem;
+    align-items: center;
+    margin: 0 auto;
+    width: 70rem;
     margin-bottom: 5rem;
-    margin-top: 3rem;
+    margin-top: auto;
     border: solid black;
     border-radius: 20px;
     box-shadow: 16px 16px 32px rgba(0, 0, 0, 0);
-  
-  }
+
+}
 
 html {
     font-size: 62.5%;
 }
 
 .background-img {
-    min-height: 100vh;
-    min-width: 100vh;
-    justify-content: center;
-}
-
-.bt-temp {
-    background: #88959F;
-    border-radius: 5%;
-    border: 0.1rem solid;
-    padding: 1.3rem;
-    color: black;
+    display: flex;
+    flex-flow: column nowrap;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 
 .option {
@@ -56,12 +53,13 @@ html {
     align-items: flex-end;
     font-size: 3rem;
 }
+
 .botao {
     border-radius: 5%;
     border: 0.1rem solid;
     padding: 1.3rem;
     color: black;
-  }
+}
 
 .opcoes .botao {
     padding: 0;
@@ -114,9 +112,9 @@ html {
     padding: 2rem;
 }
 
-.espaco-botao-temp {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.espaco-botao {
+    display: flex;
+    justify-content: center;
     gap: 2rem;
     margin-bottom: 2rem;
 }
@@ -126,5 +124,31 @@ html {
     border: 0.1rem solid;
     padding: 1.3rem;
     color: black;
-  }
-  
+}
+
+
+
+@media (max-width: 750px) {
+    .container {
+        width: 35rem;
+    }
+
+    .input-tempo {
+        height: 6rem;
+        width: 6.6rem;
+        text-align: center;
+        font-size: 6rem;
+    }
+
+    .tempo {
+        text-align: center;
+        font-size: 5rem;
+    }
+
+    .retangulo {
+        align-items: center;
+        padding: 13px;
+
+    }
+
+}
