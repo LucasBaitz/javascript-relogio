@@ -16,11 +16,11 @@ function inserirHorario () {
 }
 
 function criaHorario(horas, minutos, segundos) {
-    return `${horas < 10 ? "0" + horas : horas}:${minutos < 10 ? "0" + minutos : minutos}:${segundos < 10 ? "0" + segundos : segundos}`
+    return `${horas < 10 ? "0" + horas : horas}:${minutos < 10 ? "0" + minutos : minutos}:${segundos < 10 ? "0" + segundos : segundos}`;
 }
 
 function contagemHoras() {
-    contagem = setInterval(function() {
+    contagem = setInterval( () => {
             segundos++;
             if (segundos === 60) {
                 segundos = 0;
@@ -34,5 +34,5 @@ function contagemHoras() {
     }, 1000);
 }
 
-inserirHorario()
+inserirHorario();
 

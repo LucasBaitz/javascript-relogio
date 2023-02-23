@@ -2,10 +2,10 @@
 
 * {
     box-sizing: border-box;
-    /* outline: 0; */
+     outline: 0; 
     margin: 0;
     padding: 0;
-    outline: 1px solid red !important; 
+    /*outline: 1px solid red !important; */
 
 }
 
@@ -98,7 +98,7 @@ html {
 .footer-box {
     background: black;
     font-size: 1.8rem;
-    height: 5rem;
+    height: 2.5rem;
     text-align: center;
 }
 
@@ -126,29 +126,33 @@ html {
     color: black;
 }
 
+ul {
+    list-style: none;
+}
+
+.paused {
+    color: red;
+}
+
 
 
 @media (max-width: 750px) {
     .container {
-        width: 35rem;
+        width: 40rem;
     }
 
     .input-tempo {
         height: 6rem;
         width: 6.6rem;
-        text-align: center;
+        text-align:center;
+        justify-content: space-between;
         font-size: 6rem;
     }
 
     .tempo {
         text-align: center;
         font-size: 5rem;
-    }
-
-    .retangulo {
-        align-items: center;
-        padding: 13px;
-
+        width: 100%;
     }
 
 }

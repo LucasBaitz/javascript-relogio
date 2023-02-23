@@ -3,10 +3,10 @@ const tempo = document.querySelector('.tempo');
 const iniciar = document.querySelector('#iniciar');
 const parar = document.querySelector('#parar');
 const reiniciar = document.querySelector('#reiniciar');
-const salvarTempo = document.querySelector('#salva-tempo')
-const temposLista = document.querySelector('.tempos')
+const salvarTempo = document.querySelector('#salva-tempo');
+const temposLista = document.querySelector('.tempos');
 
-let limite = 0
+let rodaCronometro = false;
 let milisegundos = 0;
 let segundos = 0;
 let minutos = 0;
@@ -34,24 +34,21 @@ function contagemSecs() {
   }, 10);
 }
 
-
-
-// Pegars os eventos e agir de acordo
-iniciar.addEventListener('click', function() {
-  limite += 1
-  if (limite === 1){
+iniciar.addEventListener('click', () => {
+  if (!rodaCronometro) {
+    rodaCronometro = true;
     return contagemSecs();
   }
   
 });
 
-parar.addEventListener('click', function() {
-  limite = 0
+parar.addEventListener('click', () => {
+  rodaCronometro = false;
   clearInterval(contagem);
 
 });
 
-reiniciar.addEventListener('click', function() {
+reiniciar.addEventListener('click', () => {
     tempo.innerHTML = '00:00:00';
     segundos = 0;
     minutos = 0;
@@ -60,8 +57,8 @@ reiniciar.addEventListener('click', function() {
     clearInterval(contagem);
 });
 
-salvarTempo.addEventListener('click', function() {
+salvarTempo.addEventListener('click', () => {
   let lista = document.createElement('li');
-  lista.innerHTML = tempo.innerHTML
-  temposLista.appendChild(lista) 
+  lista.innerHTML = tempo.innerHTML;
+  temposLista.appendChild(lista) ;
 });
