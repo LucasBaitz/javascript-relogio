@@ -2,6 +2,10 @@
 
 > Status do projeto: EM andamento
 
+<h2> Sobre a aplicação </h2>
+
+ - Projeto desenvolvido com JavaScript, HTML e CSS que traz as principais funcionalidades de um relógio. Com design limpo e intuitivo, o usuário pode facilmente navegar entre as funcionalidades do aplicativo. O design responsivo garante que o aplicativo se adapte a diferentes tamanhos de tela. Com isso, o aplicativo de relógio se torna uma solução completa e eficiente para o cotidiano.
+
 <h2> Funcionalidades: </h2>
 
   <h3> Relógio </h3>
@@ -16,5 +20,7 @@
    
  - Medir intervalos de tempo.
     
- - Salvar intervalos de tempos que o usúario desejar. 
+ - Salvar intervalos de tempos que o usúario desejar.
+ 
+ 
 
