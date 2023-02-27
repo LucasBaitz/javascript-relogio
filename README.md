@@ -1,6 +1,6 @@
 <h1> Relógio feito e JavaScript com HTML e CSS </h1>
 
-> Status do projeto: EM andamento
+> Status do projeto: Em andamento
 
 <h2> Sobre a aplicação </h2>
 
