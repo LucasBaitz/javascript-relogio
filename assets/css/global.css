@@ -38,6 +38,7 @@ html {
 .background-img {
     display: flex;
     flex-flow: column nowrap;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -71,6 +72,11 @@ html {
 .retangulo {
     background: #fff;
     margin-bottom: 2rem;
+    border-radius: 20px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+
 }
 
 .botao:hover {
@@ -83,9 +89,10 @@ html {
 
 .input-tempo {
     border: none;
+    border-radius: 20px;
     background: #fff;
-    height: 100px;
-    width: 130px;
+    height: 10rem;
+    width: 13rem;
     text-align: center;
     font-size: 9rem;
 }
@@ -93,17 +100,6 @@ html {
 .data {
     font-size: 3rem;
     text-align: center;
-}
-
-.footer-box {
-    background: black;
-    font-size: 1.8rem;
-    height: 2.5rem;
-    text-align: center;
-}
-
-.footer-box .temp {
-    margin-top: 23.4rem;
 }
 
 .tempo {
@@ -143,7 +139,7 @@ ul {
 
     .input-tempo {
         height: 6rem;
-        width: 6.6rem;
+        width: 7.9rem;
         text-align:center;
         justify-content: space-between;
         font-size: 6rem;
