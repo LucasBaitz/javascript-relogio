@@ -62,6 +62,7 @@ function temporizador() {
 
         } else {
             tempo.innerHTML = formatarTempo(horas, minutos, segundos);
+            document.title = formatarTempo(horas, minutos, segundos)
         }
     }, 1000);
 }
@@ -82,6 +83,7 @@ iniciar.addEventListener('click', () => {
     if (!rodaTemporizador) {
         rodaTemporizador = true;
         temporizador();
+        
     }
 });
 

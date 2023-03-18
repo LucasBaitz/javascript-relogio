@@ -31,6 +31,7 @@ function contagemHoras() {
                 horas++;
             }
             horaHTML.innerHTML = criaHorario(horas, minutos, segundos);
+            document.title = criaHorario(horas, minutos, segundos);
     }, 1000);
 }
 

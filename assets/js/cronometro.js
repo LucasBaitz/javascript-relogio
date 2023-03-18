@@ -40,6 +40,7 @@ iniciar.addEventListener('click', () => {
     return contagemSecs();
   }
   
+  
 });
 
 parar.addEventListener('click', () => {
