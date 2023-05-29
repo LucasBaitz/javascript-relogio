@@ -1,6 +1,6 @@
 # Relógio feito e JavaScript com HTML e CSS
 
-> Status do projeto: Em andamento
+> Status do projeto: Finalizado
 
 
 
