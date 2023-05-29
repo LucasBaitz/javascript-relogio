@@ -1,6 +1,19 @@
-<h1> Relógio feito e JavaScript com HTML e CSS </h1>
+# Relógio feito e JavaScript com HTML e CSS
 
 > Status do projeto: Em andamento
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Relógio feito e JavaScript com HTML e CSS**
+| :label: Tecnologias | JavaScript, HTML, CSS 
+| :rocket: URL         | https://url-deploy.com.br
+
+
+## Detalhes do projeto
+
+Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+
+
 
 <h2> Sobre a aplicação </h2>
 
