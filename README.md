@@ -2,21 +2,13 @@
 
 > Status do projeto: Em andamento
 
-# Nome do meu projeto
 
-Rápida descrição do objetivo de fazer esse projeto
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **ClockApp**
  | :label: Tecnologias | JavaScript, HTML, CSS
 | :rocket: URL         | [https://url-deploy.com.br](https://javascript-relogio.vercel.app)
-
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
-
-
-
 
 
 <h2> Sobre a aplicação </h2>
