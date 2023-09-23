@@ -8,7 +8,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **ClockApp**
  | :label: Tecnologias | JavaScript, HTML, CSS
-| :rocket: URL         | [https://url-deploy.com.br](https://javascript-relogio.vercel.app)
+| :rocket: URL         | [Link](https://javascript-relogio.vercel.app)
 
 
 <h2> Sobre a aplicação </h2>
